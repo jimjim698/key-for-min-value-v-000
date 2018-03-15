@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
 tk = ""
 tv = ""
   name_hash.each do |k, v|
-  if tv = ""
+  if tv == ""
     tv= v
     tk = k
   elsif v< tv
