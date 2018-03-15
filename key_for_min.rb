@@ -5,6 +5,7 @@
 
 
 def key_for_min_value(name_hash)
+  return nil if name_hash == {}
 tk = ""
 tv = ""
   name_hash.each do |k, v|
